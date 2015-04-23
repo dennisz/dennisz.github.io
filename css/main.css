@@ -292,7 +292,8 @@ h1 {
 	  }
 
 	  .content h1 {
-	  	font-size: 5vw;
+	  	font-size: 1.5em;
+	  	max-width: 50vw;
 	  }
 
 	  .content p {
@@ -300,7 +301,7 @@ h1 {
 	  }
 
 	  #profile {
-	  	height:10em;
+	  	height:10vw;
 	  }
 
 	  .email p {
