@@ -269,12 +269,22 @@ h1 {
 /* MOBILE CSS
 ------------------------------------------------------- */
 @media screen and (max-width: 600px) {
-  #loader-wrapper {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
+ 
+ #loader-wrapper {
+	visibility: hidden;
+    	clear: both;
+    	float: left;
+    	margin: 10px auto 5px 20px;
+    	width: 28%;
+    	display: none;
   }
-} }
+  
+  #content{
+  	margin: 0 auto;
+  }
+  
+  @viewport {
+  	width: 600px;
+  }
+  
+} 
