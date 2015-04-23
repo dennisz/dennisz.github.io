@@ -288,7 +288,7 @@ h1 {
 	  	padding: 9em;
     	text-align: center;
    	 	min-height: 100%;
-    	position: relative;
+    	position: absolute;
 	  }
 
 	  .content h1 {
