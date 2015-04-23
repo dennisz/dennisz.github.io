@@ -7,16 +7,16 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700);
 @font-face {
   font-family: 'DinL';
-  src: url('../fonts/DinL.TTF') format('woff2'),
-       url('../fonts/DinL.TTF') format('woff'),
-       url('../fonts/DinL.TTF') format('truetype');
+  src: url('DinL.TTF') format('woff2'),
+       url('DinL.TTF') format('woff'),
+       url('DinL.TTF') format('truetype');
 }
 
 @font-face {
   font-family: 'DinC';
-  src: url('../fonts/DinC.ttf') format('woff2'),
-       url('../fonts/DinC.ttf') format('woff'),
-       url('../fonts/DinC.ttf') format('truetype');
+  src: url('DinC.ttf') format('woff2'),
+       url('DinC.ttf') format('woff'),
+       url('DinC.ttf') format('truetype');
 }
 
 html, body {
