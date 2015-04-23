@@ -312,6 +312,10 @@ h1 {
 	  	max-height: 10em;
 	  }
 
+	  .email {
+	  	max-width: 100%;
+	  	width: auto;
+	  }
 	  .email p {
 	  	font-size:0.3em;
 	  }
