@@ -7,16 +7,16 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700);
 @font-face {
   font-family: 'DinL';
-  src: url('DinL.TTF') format('woff2'),
-       url('DinL.TTF') format('woff'),
-       url('DinL.TTF') format('truetype');
+  src: url('../fonts/DinL.TTF') format('woff2'),
+       url('../fonts/DinL.TTF') format('woff'),
+       url('../fonts/DinL.TTF') format('truetype');
 }
 
 @font-face {
   font-family: 'DinC';
-  src: url('DinC.ttf') format('woff2'),
-       url('DinC.ttf') format('woff'),
-       url('DinC.ttf') format('truetype');
+  src: url('../fonts/DinC.ttf') format('woff2'),
+       url('../fonts/DinC.ttf') format('woff'),
+       url('../fonts/DinC.ttf') format('truetype');
 }
 
 html, body {
@@ -144,7 +144,7 @@ a:hover {
     top: 0;
     width: 51%;
     height: 100%;
-    background: #222222;
+    background: #1E2A34;
     z-index: 1000;
 }
  
@@ -154,10 +154,6 @@ a:hover {
  
 #loader-wrapper .loader-section.section-right {
     right: 0;
-}
-
-#loader {
-    z-index: 1001; /* higher than z-index: 1000 of .loader-section */
 }
 
 /* Loaded */
@@ -179,8 +175,8 @@ a:hover {
 
 .loaded #loader {
     opacity: 0;
-    -webkit-transition: all 0.1s ease-out; 
-            transition: all 0.1s ease-out;
+    -webkit-transition: all 0.05s ease-out; 
+            transition: all 0.05s ease-out;
 }
 
 .loaded #loader-wrapper .loader-section.section-right,
@@ -189,16 +185,14 @@ a:hover {
             transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
-.loaded #loader-wrapper {
-        -webkit-transform: translateY(-100%);
-            -ms-transform: translateY(-100%);
-                transform: translateY(-100%);
- 
+.loaded #loader-wrapper { 
         -webkit-transition: all 0.3s 1s ease-out; 
                 transition: all 0.3s 1s ease-out;
 }
 
-
+.no-js #loader-wrapper {
+    display: none;
+}
 
 /* spinner css*/
 .landing {
@@ -208,7 +202,7 @@ a:hover {
    margin: auto;
    padding-top:200px;
    position: absolute;
-   z-index: 10002;
+   z-index: 1001;
 }
 
 .landing-text {
@@ -256,12 +250,12 @@ h1 {
 
 /* FOOTER CSS
 ------------------------------------------------------- */
-.footer {
+.email {
 	position: relative;
 	top: -90px;
 }
 
-.footer p {
+.email p {
     font-family: 'DinL';
     font-size: 0.8em;
     color: #D5CDCD;
@@ -272,7 +266,7 @@ h1 {
     opacity: 0.35;
 }
 
-.footer img {
+.email img {
     display: block;
     height: 15px;
     vertical-align: middle;
