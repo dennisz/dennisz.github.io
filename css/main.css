@@ -285,7 +285,7 @@ h1 {
 	    display: none;
 	  }
 	  
-	  .content{
+	  .content .email{
 	  	min-width: 100vw;
     	text-align: center;
     	display: inline-block;
@@ -310,11 +310,6 @@ h1 {
 	  	max-height: 10em;
 	  }
 
-	  .email {
-	  	max-width: 100%;
-	  	width: auto;
-	  	margin: 0 auto;
-	  }
 	  .email p {
 	  	font-size:0.3em;
 	  }
