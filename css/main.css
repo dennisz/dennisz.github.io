@@ -302,6 +302,7 @@ h1 {
 
 	  #profile {
 	  	height:50vw;
+	  	max-height: 20em;
 	  }
 
 	  .email p {
