@@ -274,16 +274,26 @@ h1 {
 		background-color: white;
 		padding: 3px;
 		margin: 0;
+		width: 100% !important;
+		text-align: center;
+	 }
+
+	 * {
+	 	float: none;
 	 }
 	 
 	 #loader-wrapper {
 		visibility: hidden;
-	    	clear: both;
-	    	display: none;
+	    clear: both;
+	    display: none;
 	  }
 	  
 	  #content{
 	  	margin: 0 auto;
+	  }
+
+	  .img {
+	  	max-width: 100px;
 	  }
 	  
 }
