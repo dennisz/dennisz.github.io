@@ -290,16 +290,16 @@ h1 {
 
 	  .content h1 {
 	  	font-size: 1.5em;
-	  	width: 100vw;
+	  	width: auto;
 	  	text-align: center;
 	  	background-color: white;
-	  	position: relative;
 	  }
 
 	  .content p {
 	  	font-size: 0.8em;
 	  	max-width: 100%;
 	  	background-color: red;
+	  	width: auto;
 	  }
 
 	  #profile {
