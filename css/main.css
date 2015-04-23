@@ -284,7 +284,8 @@ h1 {
 	  }
 	  
 	  .content{
-	  	width: 100%;
+	  	min-width: 800px;
+	  	max-width: 100vw;
     	background-color:yellow;
 	  }
 
