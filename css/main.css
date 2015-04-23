@@ -291,18 +291,14 @@ h1 {
 
 	 .content > h1 {
 	 	font-size: 1.5em;
-	 	background-color: white;
 	 }
 
 	 .content p {
 	  	font-size: 0.8em;
-	  	background-color: yellow;
-	  	max-width: none;
 	 }
 
 	 .email p {
 	  	font-size:0.3em;
-	  	background-color: red;
 	 }
 
 	 .email img {
