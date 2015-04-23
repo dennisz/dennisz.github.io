@@ -285,35 +285,41 @@ h1 {
 	    display: none;
 	  }
 	  
-	  .content .email {
+	 .content .email {
 	  	min-width: 100vw;
     	text-align: center;
     	display: block;
     	margin: auto;
     	width: 100%;
     	display: inline;
-	  }
+	 }
 
-	  .content > h1 {
-	  	font-size: 1.5em;
-	  }
+	 .content > h1 {
+	 	font-size: 1.5em;
+	 }
 
-	  .content p {
+	 .content p {
 	  	font-size: 0.8em;
 	  	max-width: 100%;
 	  	min-width:100%;
-	  }
+	 }
 
-	  .content img {
+	 .content img {
 	  	display:none;
-	  }
+	 }
 
-	  .email p {
+	 .email p {
 	  	font-size:0.3em;
-	  }
+	 }
 
-	  .email img {
+	 .email img {
 	  	height: 10px;
-	  }
+	 }
 	  
+}
+
+@media screen and (max-width: 1200px) {
+	.content img {
+	  	height: 10em;
+	 }
 }
