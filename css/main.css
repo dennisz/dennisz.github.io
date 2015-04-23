@@ -7,9 +7,9 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700);
 @font-face {
   font-family: 'DinL';
-  src: url('DinL.TTF') format('woff2'),
-       url('DinL.TTF') format('woff'),
-       url('DinL.TTF') format('truetype');
+  src: url('DinL.ttf') format('woff2'),
+       url('DinL.ttf') format('woff'),
+       url('DinL.ttf') format('truetype');
 }
 
 @font-face {
