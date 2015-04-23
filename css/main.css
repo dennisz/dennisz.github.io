@@ -285,8 +285,8 @@ h1 {
 	  
 	  .content{
 	  	min-width: 100vw;
-    	background-color:yellow;
     	text-align: center;
+    	display: inline-block;
 	  }
 
 	  .content > h1 {
