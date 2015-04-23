@@ -285,10 +285,12 @@ h1 {
 	    display: none;
 	  }
 	  
-	  .content {
+	  .content .email {
 	  	min-width: 100vw;
     	text-align: center;
     	display: block;
+    	margin: auto;
+    	width: 100%;
 	  }
 
 	  .content > h1 {
@@ -303,18 +305,12 @@ h1 {
 	  .content p {
 	  	font-size: 0.8em;
 	  	max-width: 100%;
-	  	width: auto;
+	  	min-width:100%;
 	  }
 
 	  #profile {
 	  	height:50vw;
 	  	max-height: 10em;
-	  }
-
-	  .email {
-	  	max-width: 100%;
-	  	width: auto;
-	  	margin: 0 auto;
 	  }
 
 	  .email p {
