@@ -298,6 +298,7 @@ h1 {
 	 .content p {
 	  	font-size: 0.8em;
 	  	background-color: yellow;
+	  	max-width: none;
 	 }
 
 	 .email p {
