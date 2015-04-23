@@ -304,8 +304,7 @@ h1 {
 	  	min-width:100%;
 	  }
 
-	  #profile {
-	  	height:50vw;
+	  .content img {
 	  	max-height: 10em;
 	  }
 
