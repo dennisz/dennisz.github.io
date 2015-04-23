@@ -297,13 +297,11 @@ h1 {
 	  	width: auto;
 	  	min-width: 50vw;
 	  	text-align: center;
-	  	background-color: white;
 	  }
 
 	  .content p {
 	  	font-size: 0.8em;
 	  	max-width: 100%;
-	  	background-color: red;
 	  	width: auto;
 	  }
 
@@ -315,6 +313,7 @@ h1 {
 	  .email {
 	  	max-width: 100%;
 	  	width: auto;
+	  	margin: 0 auto;
 	  }
 	  .email p {
 	  	font-size:0.3em;
