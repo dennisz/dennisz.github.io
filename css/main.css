@@ -285,11 +285,11 @@ h1 {
 	    display: none;
 	  }
 	  
-	  #content{
+	  .content{
 	  	margin: 0 auto;
 	  }
 
-	  .img {
+	  img {
 	  	max-width: 100px;
 	  }
 	  
