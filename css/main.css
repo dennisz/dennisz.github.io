@@ -291,6 +291,7 @@ h1 {
     	display: block;
     	margin: auto;
     	width: 100%;
+    	display: inline;
 	  }
 
 	  .content > h1 {
