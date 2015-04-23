@@ -10,23 +10,30 @@
 		<link rel="stylesheet" href="main.css" />
 	</head>
 
- 	<body>
+ 	<body class="">
     	
-    	<div class="landing">
-			<ul class="spinner">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<div class="landing-text">
-				<p>HELLO!</p>
-			</div>
-			<a class="triangle">
-				<img src="img/triangle.png" alt="next page" />
-			</a>
+    	<div id="loader-wrapper">
+
+   			<div id="loader">
+   				<div class="landing">
+					<ul class="spinner">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div class="landing-text">
+						<p>HELLO!</p>
+					</div>
+				</div>
+   			</div>
+
+		    <div class="loader-section section-left"></div>
+		    <div class="loader-section section-right"></div>
+
 		</div>
 
+	    
 
 		<div class="content">
 			<img src="img/profile.png" alt="personal photo" id="profile" />
@@ -34,13 +41,15 @@
 			<p> I’m a student at the University of Chicago where I study economics and statistics. I dabble in design, development, and data analysis and I’ll be putting those skills to use as an APM at Uber starting in the fall. <br></br> <a href="https://www.dropbox.com/s/jw38x3pz0pmmbhp/Resume%20v20.pdf?dl=0" target="_blank">resume</a> // <a href="https://www.linkedin.com/in/dennzhao" target="_blank">linkedin</a></p>
 		</div>
 	
-	</body>
-
-	<footer>
-
+	<div class="footer">
 		<img src="img/email.png" alt="email" /> 
 		<p> <a href="mailto: denn.zhao@gmail.com"> Shoot me an email? </a> </p>
+	</div>
+		
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/main.js"></script>
 
-	</footer>
+	</body>
 
 </html>

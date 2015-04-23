@@ -21,7 +21,7 @@
 
 html, body {
     background-color: #1E2A34;
-    height:100%;
+    height:100vh;
 }
 
 *,
@@ -31,7 +31,7 @@ html, body {
 }
 
 .div{
-    display: block;
+    display: inline-block;
     vertical-align: baseline;
 }
 
@@ -136,15 +136,79 @@ a:hover {
     to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
 
+
 /* LANDING CSS 
 ------------------------------------------------------ */
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+}
+ 
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+ 
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
 
+#loader {
+    z-index: 1001; /* higher than z-index: 1000 of .loader-section */
+}
+
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+}
+ 
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded #loader {
+    opacity: 0;
+    -webkit-transition: all 0.1s ease-out; 
+            transition: all 0.1s ease-out;
+}
+
+.loaded #loader-wrapper .loader-section.section-right,
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader-wrapper {
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
+ 
+        -webkit-transition: all 0.3s 1s ease-out; 
+                transition: all 0.3s 1s ease-out;
+}
+
+
+
+/* spinner css*/
 .landing {
    width: 100%;
    height: 100vh;
    line-height: 100%;
    margin: auto;
    padding-top:200px;
+   position: absolute;
+   z-index: 10002;
 }
 
 .landing-text {
@@ -158,23 +222,15 @@ a:hover {
 	top: -75px;
 }
 
-.triangle {
-    text-align: center;
-    display: block;
-    position: relative;
-    width: 21px;
-    height: 12px;
-    left: 49%;
-    bottom: -22em;
-}
 
 /* CONTENT CSS
 ------------------------------------------------------- */
 
 .content {
-    padding: 15em 0;
+    padding: 9em;
     text-align: center;
     min-height: 100%;
+    position: relative;
 }
 
 #profile {
@@ -197,10 +253,15 @@ h1 {
     max-width: 22em;
     margin: auto}
 
+
 /* FOOTER CSS
 ------------------------------------------------------- */
+.footer {
+	position: relative;
+	top: -90px;
+}
 
-footer p {
+.footer p {
     font-family: 'DinL';
     font-size: 0.8em;
     color: #D5CDCD;
@@ -211,11 +272,11 @@ footer p {
     opacity: 0.35;
 }
 
-footer img {
+.footer img {
     display: block;
     height: 15px;
     vertical-align: middle;
     margin: auto;
     margin-bottom: 3px;
     opacity: 0.25;
-}
+} 
