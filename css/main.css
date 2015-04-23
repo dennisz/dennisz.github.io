@@ -305,7 +305,7 @@ h1 {
 	  }
 
 	  .content img {
-	  	max-height: 10em;
+	  	display:none;
 	  }
 
 	  .email p {
