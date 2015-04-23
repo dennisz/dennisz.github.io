@@ -279,7 +279,7 @@ h1 {
 		text-align: center;
 	 }
 
-	 #loader-wrapper #profile {
+	 #loader-wrapper, #profile {
 		visibility: hidden;
 	    clear: both;
 	    display: none;
