@@ -292,14 +292,17 @@ h1 {
 	 .content > h1 {
 	 	font-size: 1em;
 	 	margin-bottom: 10px;
+	 	background-color: white;
 	 }
 
 	 .content p {
 	  	font-size: 0.5em;
+	  	background-color: red;
 	 }
 
 	 .email p {
 	  	font-size:0.3em;
+	  	background-color: yellow;
 	 }
 
 	 .email img {
