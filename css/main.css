@@ -285,7 +285,7 @@ h1 {
 	    display: none;
 	  }
 	  
-	  .content .email{
+	  .content {
 	  	min-width: 100vw;
     	text-align: center;
     	display: inline-block;
@@ -308,6 +308,13 @@ h1 {
 	  #profile {
 	  	height:50vw;
 	  	max-height: 10em;
+	  }
+
+	  .email {
+	  	max-width: 100%;
+	  	width: auto;
+	  	margin: 0 auto;
+	  	background-color: white;
 	  }
 
 	  .email p {
