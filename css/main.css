@@ -285,27 +285,29 @@ h1 {
 	  .content{
 	  	margin: 0 auto;
 	  	width:100%;
+	  	padding: 9em;
+    	text-align: center;
+   	 	min-height: 100%;
+    	position: relative;
 	  }
 
 	  .content h1 {
 	  	font-size: 1.5em;
+	  	width:100%;
 	  }
 
 	  .content p {
 	  	font-size: 0.8em;
 	  }
 
-	  .email {}
-
-
 	  #profile {
-	  	height:8em;
+	  	height:10em;
 	  }
 
 	  .email p {
 	  	font-size:0.3em;
 	  }
-	  
+
 	  .email img {
 	  	height: 10px;
 	  }
