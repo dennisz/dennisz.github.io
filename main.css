@@ -1,0 +1,221 @@
+/* Dennis Zhao, CS101 */
+
+
+/* PAGE STRUCTURE
+------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700);
+@font-face {
+  font-family: 'DinL';
+  src: url('DinL.TTF') format('woff2'),
+       url('DinL.TTF') format('woff'),
+       url('DinL.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'DinC';
+  src: url('DinC.ttf') format('woff2'),
+       url('DinC.ttf') format('woff'),
+       url('DinC.ttf') format('truetype');
+}
+
+html, body {
+    background-color: #1E2A34;
+    height:100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.div{
+    display: block;
+    vertical-align: baseline;
+}
+
+a:link {
+    color: #D5CDCD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D5CDCD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF988B;
+    text-decoration: none;
+}
+
+
+/* ANIMATION CSS
+------------------------------------------------------- */
+.spinner {
+	/* Size and position */
+    font-size: 130px; /* 1em */
+    width: 1em;
+    height: 1em;
+    margin: 100px auto;
+    position: relative;
+
+    /* Styles */
+    list-style: none;
+    border-radius: 50%;
+    border: .045em solid #D5CDCD; 
+ }
+
+.spinner li {
+	width: .15em;
+    height: .15em;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.spinner li:nth-child(1) {
+    left: 50%;
+    top: 0;
+    margin-left: -.1em;
+    background: #E74C3C;
+    -webkit-transform-origin: 50% 250%;
+    transform-origin: 50% 250%;
+    -webkit-animation: 
+        rota 1.13s linear infinite;
+    animation: 
+        rota 1.13s linear infinite;
+}
+
+.spinner li:nth-child(2) {
+    top: 50%; 
+    right: 0;
+    margin-top: -.1em;
+    background: #2ECC71;
+    -webkit-transform-origin: -150% 50%;
+    transform-origin: -150% 50%;
+    -webkit-animation: 
+        rota 1.86s linear infinite;
+    animation: 
+        rota 1.86s linear infinite;
+}
+
+.spinner li:nth-child(3) {
+    bottom: 0; 
+    left: 50%;
+    margin-left: -.1em;
+    background: #4A90E2;
+    -webkit-transform-origin: 50% -150%;
+    transform-origin: 50% -150%;
+    -webkit-animation: 
+        rota 1.42s linear infinite;
+    animation: 
+        rota 1.42s linear infinite;
+}
+
+.spinner li:nth-child(4) {
+    left: 20%; 
+    top: 50%;
+    margin-left: -.1em;
+    background: #F1C40F;
+    -webkit-transform-origin: 250% 50%;
+    transform-origin: 250% 50%;
+    -webkit-animation: 
+        rota 2.11s linear infinite;
+    animation: 
+        rota 2.11s linear infinite;
+}
+
+@-webkit-keyframes rota {
+    from { }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes rota {
+    from { }
+    to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+/* LANDING CSS 
+------------------------------------------------------ */
+
+.landing {
+   width: 100%;
+   height: 100vh;
+   line-height: 100%;
+   margin: auto;
+   padding-top:200px;
+}
+
+.landing-text {
+	color: #D5CDCD;
+	font-family:'Anonymous Pro';
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	top: -75px;
+}
+
+.triangle {
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 21px;
+    height: 12px;
+    left: 49%;
+    bottom: -22em;
+}
+
+/* CONTENT CSS
+------------------------------------------------------- */
+
+.content {
+    padding: 15em 0;
+    text-align: center;
+    min-height: 100%;
+}
+
+#profile {
+    height:20em;
+}
+
+h1 {
+    font-family: 'DinC';
+    color: #FF988B;
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+.content p {
+    font-family: 'DinL';
+    color: #D5CDCD;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: center;
+    max-width: 22em;
+    margin: auto}
+
+/* FOOTER CSS
+------------------------------------------------------- */
+
+footer p {
+    font-family: 'DinL';
+    font-size: 0.8em;
+    color: #D5CDCD;
+    opacity: 30%;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 50px;
+    opacity: 0.35;
+}
+
+footer img {
+    display: block;
+    height: 15px;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 3px;
+    opacity: 0.25;
+}
