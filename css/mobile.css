@@ -1,0 +1,32 @@
+/* MOBILE CSS
+------------------------------------------------------- */
+@media handheld {
+
+	.selector-01 {
+		padding: 0;
+		margin: 0;
+		}
+	.selector-02 {
+		padding: 0;
+		margin: 0;
+		}
+	.selector-03 {
+		padding: 0;
+		margin: 0;
+		}
+
+	body {
+	 	width: 100%;
+	 }
+	 
+	 #loader-wrapper {
+		visibility: hidden;
+	    	clear: both;
+	    	display: none;
+	  }
+	  
+	  #content{
+	  	margin: 0 auto;
+	  }
+	  
+}
