@@ -293,6 +293,7 @@ h1 {
 	  	width: 100vw;
 	  	text-align: center;
 	  	background-color: white;
+	  	position: relative;
 	  }
 
 	  .content p {
