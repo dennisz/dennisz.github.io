@@ -271,7 +271,6 @@ h1 {
 @media screen and (max-width: 800px) {
 
 	html, body {
-		background-color: white;
 		padding: 3px;
 		margin: 0;
 		width: 100% !important;
