@@ -7,9 +7,9 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700);
 @font-face {
   font-family: 'DinL';
-  src: url('DinC.TTF') format('woff2'),
-       url('DinC.TTF') format('woff'),
-       url('DinC.TTF') format('truetype');
+  src: url('DinL.TTF') format('woff2'),
+       url('DinL.TTF') format('woff'),
+       url('DinL.TTF') format('truetype');
 }
 
 @font-face {
@@ -245,7 +245,8 @@ h1 {
     line-height: 1.3em;
     text-align: center;
     max-width: 22em;
-    margin: auto}
+    margin: auto;
+}
 
 
 /* FOOTER CSS
