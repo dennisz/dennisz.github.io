@@ -7,16 +7,16 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700);
 @font-face {
   font-family: 'DinL';
-  src: url('DinL.TTF') format('woff2'),
-       url('DinL.TTF') format('woff'),
-       url('DinL.TTF') format('truetype');
+  src: url('../fonts/DinL.TTF') format('woff2'),
+       url('../fonts/DinL.TTF') format('woff'),
+       url('../fonts/DinL.TTF') format('truetype');
 }
 
 @font-face {
   font-family: 'DinC';
-  src: url('DinC.ttf') format('woff2'),
-       url('DinC.ttf') format('woff'),
-       url('DinC.ttf') format('truetype');
+  src: url('../fonts/DinC.ttf') format('woff2'),
+       url('../fonts/DinC.ttf') format('woff'),
+       url('../fonts/DinC.ttf') format('truetype');
 }
 
 html, body {
@@ -239,10 +239,10 @@ h1 {
 }
 
 .content p {
-    font-family: 'DinL';
+    font-family: 'DinC';
     color: #D5CDCD;
-    font-size: 16px;
-    line-height: 1.3em;
+    font-size: 15px;
+    line-height: 1.4em;
     text-align: center;
     max-width: 22em;
     margin: auto;
@@ -257,7 +257,7 @@ h1 {
 }
 
 .email p {
-    font-family: 'DinL';
+    font-family: 'DinC';
     font-size: 0.8em;
     color: #D5CDCD;
     opacity: 30%;
