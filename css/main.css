@@ -275,9 +275,7 @@ h1 {
 @media screen and (max-width: 800px) {
 
 	html, body {
-		padding: 3px;
-		margin: 0;
-		text-align: center;
+		margin: auto;
 	 }
 
 	 #loader-wrapper, #profile {
