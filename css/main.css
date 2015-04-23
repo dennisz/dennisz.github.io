@@ -279,7 +279,7 @@ h1 {
 		text-align: center;
 	 }
 
-	 #loader-wrapper {
+	 #loader-wrapper #profile {
 		visibility: hidden;
 	    clear: both;
 	    display: none;
@@ -300,12 +300,7 @@ h1 {
 
 	 .content p {
 	  	font-size: 0.8em;
-	  	max-width: 100%;
-	  	min-width:100%;
-	 }
-
-	 .content img {
-	  	display:none;
+	  	width:100em;
 	 }
 
 	 .email p {
