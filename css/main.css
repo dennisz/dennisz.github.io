@@ -288,7 +288,7 @@ h1 {
 	  .content {
 	  	min-width: 100vw;
     	text-align: center;
-    	display: inline-block;
+    	display: block;
 	  }
 
 	  .content > h1 {
