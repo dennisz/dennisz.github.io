@@ -9,8 +9,8 @@
 
 html, body {
     background-color: #1E2A34;
-    min-height:100vh;
-    min-width:100vw;
+    min-height:100%;
+    min-width:100%;
 }
 
 *,
