@@ -297,7 +297,7 @@ h1 {
 	  	width: auto;
 	  	min-width: 50vw;
 	  	text-align: center;
-	  	display: inline-block;
+	  	display: block;
 	  }
 
 	  .content p {
@@ -315,7 +315,6 @@ h1 {
 	  	max-width: 100%;
 	  	width: auto;
 	  	margin: 0 auto;
-	  	background-color: yellow;
 	  }
 
 	  .email p {
