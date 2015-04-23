@@ -297,7 +297,7 @@ h1 {
 
 	  .content p {
 	  	font-size: 0.8em;
-	  	max-width: 50em;
+	  	max-width: 100%;
 	  }
 
 	  #profile {
