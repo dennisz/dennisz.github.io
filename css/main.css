@@ -227,6 +227,7 @@ h1 {
     font-size: 3.1em;
     margin-top: -6px;
     margin-bottom: -3px;
+    margin: auto;
 }
 
 .content p {
