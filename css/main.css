@@ -273,10 +273,8 @@ h1 {
 @media screen and (max-width: 800px) {
 
 	 #loader-wrapper, #profile {
-		visibility: hidden;
 	    clear: both;
 	    display: none;
-	    background-color: white;
 	  }
 	  
 	 .content, .email {
