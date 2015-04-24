@@ -275,6 +275,8 @@ h1 {
 
 	html, body {
 		margin: auto;
+		width: 100%;
+		overflow: hidden;
 	 }
 
 	 #loader-wrapper, #profile {
