@@ -276,6 +276,7 @@ h1 {
 		visibility: hidden;
 	    clear: both;
 	    display: none;
+	    background-color: white;
 	  }
 	  
 	 .content, .email {
