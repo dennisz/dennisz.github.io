@@ -254,7 +254,6 @@ h1 {
     font-size: 0.8em;
     color: #D5CDCD;
     opacity: 30%;
-    text-align: center;
     margin:auto;
     padding-bottom: 50px;
     opacity: 0.35;
@@ -280,6 +279,7 @@ h1 {
 	  }
 	  
 	 .content, .email {
+	 	position: relative;
     	text-align: center;
     	margin: auto;
 	    min-width: 100vw;
