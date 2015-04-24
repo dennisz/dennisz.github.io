@@ -284,7 +284,7 @@ h1 {
     	margin: auto;
 	    min-width: 100vw;
 	    min-height: 100vh;
-    	display: inline-block;
+    	display: table;
 	 }
 
 	 .content > h1 {
