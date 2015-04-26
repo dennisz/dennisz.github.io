@@ -298,8 +298,13 @@ a:hover {
 	    display: none;
 	  }
 	  
-    /* .content {
-        background-color:white;
+     #profile {
+        max-height: 10em;
+     }
+
+     .content {
+        padding-top: 1em;
+        padding: 0.5em;
      }
 
      }
