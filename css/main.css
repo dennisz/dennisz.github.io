@@ -211,10 +211,10 @@ a:hover {
 /* CONTENT CSS
 ------------------------------------------------------- */
 
-.content {
+/*.content {
     position: relative;
     text-align: center;
-    padding: 9em;
+    padding-top: 9em;
 }
 
 .content p {
@@ -240,10 +240,10 @@ a:hover {
     vertical-align: middle;
     margin: auto;
     margin-bottom: 3px;
-} 
+} */
 
-/*.content {
-    padding: 9em;
+.content {
+    padding-top: 9em;
     text-align: center;
     min-height: 100%;
 }
@@ -270,7 +270,7 @@ h1 {
     text-align: center;
     margin: auto;
     max-width: 24em;
-}*/
+}
 
 
 /* FOOTER CSS
