@@ -320,7 +320,7 @@ a:hover {
 	 }
 
      .email {
-        margin-top: -5em;
+        margin-top: -0.5em;
      }
 
 	 .email p {
@@ -329,7 +329,16 @@ a:hover {
 
 	 .email img {
 	  	height: 0.5em;
+	 }
 
+	 a:link {
+    	color: #D5CDCD;
+    	text-decoration: none;
+	 }
+ 
+	 a:visited {
+    	color: #D5CDCD;
+    	text-decoration: none;
 	 }
 	  
 }
