@@ -299,7 +299,7 @@ a:hover {
 	  }
 	  
      #profile {
-        max-height: 10em;
+        max-height: 14em;
      }
 
      .content {
@@ -312,14 +312,12 @@ a:hover {
 	 	font-size: 2em;
 	 	margin-bottom: 10px;
         width: 100vw;
-	 	background-color: red;
 	 }
 
 	 .content p {
         width: 100vw;
 	  	font-size: 0.8em;
-	  	background-color:yellow;
-	 }*/
+	 }
 
 	 .email p {
 	  	font-size:0.3em;
