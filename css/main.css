@@ -299,16 +299,17 @@ a:hover {
 	  }
 	  
      #profile {
-        max-height: 14em;
+        margin-top: 5em;
+        max-height: 15em;
      }
 
      .content {
-        padding-top: 1em;
         padding: 0.5em;
      }
 
 	 .content > h1 {
-	 	font-size: 2em;
+	 	margin-top: 10px;
+        font-size: 2.5em;
 	 	margin-bottom: 10px;
         width: 100vw;
 	 }
