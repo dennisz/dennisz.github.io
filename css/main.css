@@ -299,7 +299,7 @@ a:hover {
 	  }
 	  
      #profile {
-        margin-top: 5em;
+        margin-top: 3em;
         max-height: 15em;
      }
 
@@ -319,12 +319,16 @@ a:hover {
 	  	font-size: 0.8em;
 	 }
 
+     .email {
+        margin-top: -5em;
+     }
+
 	 .email p {
-	  	font-size:0.3em;
+	  	font-size:0.5em;
 	 }
 
 	 .email img {
-	  	height: 10px;
+	  	height: 0.5em;
 
 	 }
 	  
