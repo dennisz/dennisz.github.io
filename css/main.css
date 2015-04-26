@@ -211,37 +211,6 @@ a:hover {
 /* CONTENT CSS
 ------------------------------------------------------- */
 
-/*.content {
-    position: relative;
-    text-align: center;
-    padding-top: 9em;
-}
-
-.content p {
-    font-family: 'Roboto';
-    font-size: 0.92em;
-    letter-spacing: 0.1px;
-    line-height: 1.5em;
-    color: #D5CDCD;
-    margin: auto;
-    max-width: 24em;
-}
-
-.content h1 {
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    color: #FF988B;
-    font-size: 3.1em;
-}
-
-.content img {
-    display: block;
-    height: 20em;
-    vertical-align: middle;
-    margin: auto;
-    margin-bottom: 3px;
-} */
-
 .content {
     padding-top: 9em;
     text-align: center;
@@ -252,7 +221,7 @@ a:hover {
     height:20em;
 }
 
-h1 {
+.content h1 {
     font-family: 'Titillium Web';
     font-weight: 700;
     color: #FF988B;
@@ -278,6 +247,7 @@ h1 {
 .email {
 	position: relative;
 	text-align: center;
+    padding-top: 9em;
 }
 
 .email p {
@@ -322,7 +292,7 @@ h1 {
 		max-width: 100%;
 	}
 
-	 #loader-wrapper, #profile {
+	 #loader-wrapper {
 	    visibility: hidden;
 	    clear: both;
 	    display: none;
