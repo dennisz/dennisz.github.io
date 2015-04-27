@@ -6,4 +6,4 @@ I plan to work on it more in the future (mostly simple stuff, using the Skeleton
 
 If there are any issues with it, please message me and let me know!
 
-You can access it here: http://hellodenn.is
+You can access it here: http://hashtagdennis.com
